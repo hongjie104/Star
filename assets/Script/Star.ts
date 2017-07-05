@@ -16,4 +16,8 @@ export default class Star extends cc.Component {
         // init logic
         this.node.setContentSize(64, 64);
     }
+
+    test() {
+        cc.log('aaa');
+    }
 }
